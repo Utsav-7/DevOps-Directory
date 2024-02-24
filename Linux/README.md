@@ -1,4 +1,4 @@
-![Screenshot from 2024-02-24 13-33-00](https://github.com/Utsav-7/DevOps-Directory/assets/98468952/94eb1123-4432-4e51-9a07-cc5da6d0ea79)# Most Useful Linux Commands 
+# Most Useful Linux Commands 
 ## mkdir
 - It is used to create a folder at specific location.
 ![Screenshot from 2024-02-24 11-10-18](https://github.com/Utsav-7/DevOps-Directory/assets/98468952/05b0bdea-7547-4f1e-a914-c95dd4caf4c2)
