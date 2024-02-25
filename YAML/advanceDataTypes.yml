@@ -1,0 +1,89 @@
+# List
+student: !!seq
+ - name
+ - marks
+ - roll_no
+
+# like this also
+cities: [new delhi, mumbai, ahmedabad, bengalore, hyderabad]
+
+# some of the keys of seq will empty
+# sparse seq
+sparse seq: 
+ - hey
+ - how
+ - 
+ - Null
+ - sup
+
+# Nested sequence
+- 
+ - apple
+ - mango
+ - banana
+ - orange
+
+# Key-value pairs are called maps
+!!map
+
+# nested mapping: map within the map
+name: utsav katharotiya
+role: 
+  age: 23
+  job: student
+
+# same as 
+name: utsav katharotiya
+role: {age: 23, job: student}
+
+# pairs: keys may have duplicate values
+# this will be an array of hashtables
+# !!pairs 
+pair example: !!pairs
+ - city: surat
+ - city: anand
+# same as
+pair example: !!pairs [city: surat, city: anand]
+
+# Set will allow you to have unique(not repeat) values
+# !!set
+names: !!set
+ ? utsav
+ ? jay
+ ? vijay
+
+# dictionary !!omap
+people: !!omap
+ - utsav: 
+    name: utsav katharotiya
+    age: 23
+    heigth: 1323
+ - jay: 
+    name: jay op
+    age: 32
+    height: 312
+  
+# reusing of some properties using anchors
+liking: &likes
+ fav fruits: apple
+ dislike: banana
+
+person1: 
+ name: utsav
+ <<: *likes
+
+person2: 
+ name: jay
+ <<: *likes
+ dislike: berries # dislike of liking is updated by berries
+
+# this is look like this
+person2: 
+ name: jay
+ fav fruits: apple
+ dislike: berries 
+
+
+
+
+

@@ -1,0 +1,30 @@
+# We use '---' for differentiate the difference types of documents
+# We use '...' for ending a document
+# YAML does not provide multi-line comments
+"key" : "value"
+1: "this is one"
+---
+# Lists 
+- apple # Case sensitive
+- banana
+- mango
+- Apple #Apple and apple is different
+---
+# block type document
+# don't use tabs but more uses space 
+# because one less or more space create an error or huge difference
+cities :
+ - new delhi
+ - mumbai
+ - ahmedabad
+ - bengalore
+ - hyderabad
+
+---
+# We have another way to create list document to avoid space mistake.
+cities: [new delhi, mumbai, ahmedabad, bengalore, hyderabad]
+---
+{mango: "yellow fruits", age: 56}
+
+...
+

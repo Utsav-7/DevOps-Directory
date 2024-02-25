@@ -1,0 +1,65 @@
+# String variables
+# How many ways to represent the strings
+# 1.
+myself: utsav katharotiya
+# 2.
+fruits: "apple"
+# 3.
+job: 'DevOps'
+
+# Representation of multiple lines string 
+bio: |
+my name is utsav. 
+i live in surat.
+
+# write single line in multiple lines
+message: >
+this will 
+all be 
+in one single lines
+# Same as
+message: this will all be in one  single lines
+
+
+number: 123
+marks: 98.98
+booleanValue: No # you can also write n, N, false, False, FALSE
+# same for true -> yes, y, Y, Yes, YES
+
+
+# Specify the data types
+# Interger numbers
+zero: !!int 0
+positiveNum: !!int 43
+negativeNum: !!int -43
+binaryNum: !!int 0b1101
+octalNum: !!int 0674
+hexa: !!int 0x43
+commaValues: !!int +540_000 # 5,40,000
+exponential numbers: 6.022E23
+
+
+# floting point numbers
+marks: !!float 87.65
+infinite: !!float .inf
+not a num: .nan
+
+# Boolean value
+trueVal: !!bool yes #yes, y, Y, true, True, TRUE
+falseVal: !!bool no #no, n, N, false, False, FALSE
+
+# String Values
+name: !!str utsav katharotiya
+
+# null value
+surname: !!null Null #null, NULL, ~
+~: this is a null key
+
+# dates and times
+date: 2024-02-25
+date: !!timestamp 2024-02-25 # also write 
+india time: 2001-12-15T02:59:43.1 +5:30
+no time zone: 2001-12-15T02:59:43.1
+
+
+
