@@ -44,5 +44,9 @@ Here's a comparison between YAML, JSON, and XML:
 - Hierarchical structure with tags.
 - More verbose than YAML and JSON, but supports namespaces and validation.
 
-
+### Important Resources for YAML:
+- [Lens](https://k8slens.dev/)
+- [Monokle](https://github.com/kubeshop/monokle)
+- [Datree](https://www.datree.io/)
+- [How to validate Kubernetes YAML files](https://itnext.io/how-to-validate-kubernetes-yaml-files-9a17b9a30f08)
 
