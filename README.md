@@ -50,4 +50,4 @@ Contributions to this repository are welcome! Whether it's fixing a typo, adding
 
 ## License
 
-This repository is licensed under the [MIT License](LICENSE).
+This repository is licensed under the [MIT License](https://opensource.org/licenses/MIT).
