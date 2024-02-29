@@ -45,3 +45,11 @@ To get started with Kubernetes, you can:
 - Install Minikube for local development and testing.
 - Use managed Kubernetes services like Google Kubernetes Engine (GKE), Amazon Elastic Kubernetes Service (EKS), or Microsoft Azure Kubernetes Service (AKS).
 - Explore Kubernetes documentation and tutorials to learn more about its features and best practices.
+
+## Resources:
+- Lens: [https://k8slens.dev/](https://k8slens.dev/)
+- Kubescape - [https://hubs.la/Q012KVqQ0](https://github.com/kubescape/kubescape)
+- Monokle: [https://github.com/kubeshop/monokle](https://github.com/kubeshop/monokle)
+- Datree: [https://www.datree.io/](https://www.datree.io/)
+- Teleport: [http://goteleport.com/](https://goteleport.com/)
+- Civo: [https://www.civo.com/academy](https://www.civo.com/academy)
